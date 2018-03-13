@@ -48,7 +48,7 @@ Shacham, Waters, "Compact Proofs of Retrievability"
 #include <cryptopp/integer.h>
 #include <cryptopp/nbtheory.h>
 
-
+using namespace CryptoPP;
 
 class shacham_waters_private_data 
 {

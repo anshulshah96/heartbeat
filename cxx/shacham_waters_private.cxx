@@ -34,7 +34,7 @@ THE SOFTWARE.
 #include <cryptopp/osrng.h>
 #include <cryptopp/hmac.h>
 #include <cryptopp/hex.h>
-
+using namespace CryptoPP;
 void shacham_waters_private_data::tag::serialize(CryptoPP::BufferedTransformation &bt) const
 {
 	unsigned int n = htonl(_sigma.size());

@@ -35,7 +35,7 @@ THE SOFTWARE.
 #include <iostream>
 #include "clz.h"
 #include "pointer.hxx"
-
+using namespace CryptoPP;
 class prf
 {
 public:

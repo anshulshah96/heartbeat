@@ -33,4 +33,5 @@ import heartbeat.PySwizzle  # NOQA
 from .exc import HeartbeatError  # NOQA
 
 
-Heartbeat = heartbeat.Swizzle.Swizzle
+Swizzle = heartbeat.Swizzle.Swizzle
+PySwizzle = heartbeat.PySwizzle.PySwizzle
