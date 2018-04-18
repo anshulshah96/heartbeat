@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# This file is part of Heartbeat: https://github.com/Storj/heartbeat
+# This file is part of Heartbeat: https://github.com/anshulshah96/heartbeat
 #
 #  The MIT License (MIT)
 #
@@ -25,11 +25,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+
+from .Golem import *
+
 __version__ = "0.1.4"
-
-import heartbeat.Swizzle    # NOQA
-import heartbeat.Merkle    # NOQA
-import heartbeat.PySwizzle  # NOQA
-from .exc import HeartbeatError  # NOQA
-
-Heartbeat = heartbeat.Swizzle.Swizzle
